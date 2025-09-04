@@ -12,10 +12,10 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['hey', 'summer', 'ukulele'];
+const songs = ['嚣张'];
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 1;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
